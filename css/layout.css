@@ -1,6 +1,6 @@
 .container {
     background-image: var(--cont-color);
-    height: 100%;
+    min-height: 100%;
     box-shadow: 0 0 10px black;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -17,10 +17,12 @@
 
 }
 .container > .main {
-    grid-column-end: -1
+    grid-column: 3 / -1;
+    min-height: 100%;
 }
 .container > .footer {
     grid-column: 3 / -1;
     background-color: rgba(184, 63, 176, 0.558);
     margin-right: -1px;
+    padding-left: 10px;
 }
