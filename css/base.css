@@ -1,0 +1,24 @@
+@import url("layout.css");
+@import "/css/component.css";
+
+:root {
+    --body-color: rgb(89, 187, 214);
+    --cont-color: linear-gradient(rgb(177, 89, 206), rgb(145, 204, 228));
+    
+    --section-color: rebeccapurple;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html, body {
+    height: 100%;
+}
+body {
+    padding: 20px;
+    background-color: var(--body-color);
+}
+
+
